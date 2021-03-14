@@ -1,0 +1,5 @@
+Getting Started
+
+1. Install docker and docker-compose - https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=94798094
+2. From the project root, run the command - `docker-compose up --build`
+3. The API will start listening at  - http://0.0.0.0:9898/
