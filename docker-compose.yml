@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  lab_buddy_api:
+    build: .
+    working_dir: /lab-buddy
+    volumes:
+      - ./:/lab-buddy
+    ports:
+      - 9898:9898
+    restart: always
