@@ -10,4 +10,4 @@ RUN pip3 install flask
 RUN pip3 install flask-restful
 RUN pip3 install requests
 
-CMD python3 lab_buddy_api.py
+CMD python3 src/lab_buddy_api.py
